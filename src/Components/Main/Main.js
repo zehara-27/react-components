@@ -8,6 +8,7 @@ import arcade from "../../images/icons/arcade.png";
 import Fourth from "./Fourth/Fourth";
 import Rating from "./Rating/Rating";
 import Youtube from "../Youtube/Youtube";
+import Mypractic from "../../Practic/Mypractic";
 
 function Main() {
   return (
@@ -251,6 +252,10 @@ function Main() {
 
       <section className="youtubeVideosWrapper top-100">
         {/* <Youtube /> */}
+      </section>
+
+      <section>
+        <Mypractic />
       </section>
     </div>
   );
